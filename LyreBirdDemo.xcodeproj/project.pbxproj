@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		362ACCF624E81393008B8EDB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362ACCF524E81393008B8EDB /* Extensions.swift */; };
+		36AD33C924E7EE5E002B28B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AD33C824E7EE5E002B28B3 /* AppDelegate.swift */; };
+		36AD33CB24E7EE5E002B28B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AD33CA24E7EE5E002B28B3 /* SceneDelegate.swift */; };
+		36AD33CD24E7EE5E002B28B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AD33CC24E7EE5E002B28B3 /* ViewController.swift */; };
+		36AD33D024E7EE5E002B28B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36AD33CE24E7EE5E002B28B3 /* Main.storyboard */; };
+		36AD33D224E7EE5F002B28B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36AD33D124E7EE5F002B28B3 /* Assets.xcassets */; };
+		36AD33D524E7EE5F002B28B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36AD33D324E7EE5F002B28B3 /* LaunchScreen.storyboard */; };
+		36AD33DD24E80154002B28B3 /* OverlayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AD33DC24E80154002B28B3 /* OverlayItem.swift */; };
+		FF5D79B88DD3B0A86571B12E /* Pods_LyreBirdDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 563A61EFE30BBF6946ABF64B /* Pods_LyreBirdDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		362ACCF524E81393008B8EDB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		36AD33C524E7EE5E002B28B3 /* LyreBirdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyreBirdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36AD33C824E7EE5E002B28B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36AD33CA24E7EE5E002B28B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		36AD33CC24E7EE5E002B28B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36AD33CF24E7EE5E002B28B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36AD33D124E7EE5F002B28B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36AD33D424E7EE5F002B28B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36AD33D624E7EE5F002B28B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36AD33DC24E80154002B28B3 /* OverlayItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayItem.swift; sourceTree = "<group>"; };
+		563A61EFE30BBF6946ABF64B /* Pods_LyreBirdDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyreBirdDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5170CEA511FE5CB4F368DE /* Pods-LyreBirdDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyreBirdDemo.debug.xcconfig"; path = "Target Support Files/Pods-LyreBirdDemo/Pods-LyreBirdDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E391BF71B0DA22CA90DD37AF /* Pods-LyreBirdDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyreBirdDemo.release.xcconfig"; path = "Target Support Files/Pods-LyreBirdDemo/Pods-LyreBirdDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36AD33C224E7EE5E002B28B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5D79B88DD3B0A86571B12E /* Pods_LyreBirdDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		052F4D63258A50B52A182C98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB5170CEA511FE5CB4F368DE /* Pods-LyreBirdDemo.debug.xcconfig */,
+				E391BF71B0DA22CA90DD37AF /* Pods-LyreBirdDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		33209F357C59AD7548D0E586 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				563A61EFE30BBF6946ABF64B /* Pods_LyreBirdDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36AD33BC24E7EE5E002B28B3 = {
+			isa = PBXGroup;
+			children = (
+				36AD33C724E7EE5E002B28B3 /* LyreBirdDemo */,
+				36AD33C624E7EE5E002B28B3 /* Products */,
+				052F4D63258A50B52A182C98 /* Pods */,
+				33209F357C59AD7548D0E586 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36AD33C624E7EE5E002B28B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36AD33C524E7EE5E002B28B3 /* LyreBirdDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36AD33C724E7EE5E002B28B3 /* LyreBirdDemo */ = {
+			isa = PBXGroup;
+			children = (
+				36AD33C824E7EE5E002B28B3 /* AppDelegate.swift */,
+				36AD33CA24E7EE5E002B28B3 /* SceneDelegate.swift */,
+				36AD33CC24E7EE5E002B28B3 /* ViewController.swift */,
+				36AD33DC24E80154002B28B3 /* OverlayItem.swift */,
+				36AD33CE24E7EE5E002B28B3 /* Main.storyboard */,
+				36AD33D124E7EE5F002B28B3 /* Assets.xcassets */,
+				36AD33D324E7EE5F002B28B3 /* LaunchScreen.storyboard */,
+				36AD33D624E7EE5F002B28B3 /* Info.plist */,
+				362ACCF524E81393008B8EDB /* Extensions.swift */,
+			);
+			path = LyreBirdDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36AD33C424E7EE5E002B28B3 /* LyreBirdDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36AD33D924E7EE5F002B28B3 /* Build configuration list for PBXNativeTarget "LyreBirdDemo" */;
+			buildPhases = (
+				395996FE092139668CCD6CE1 /* [CP] Check Pods Manifest.lock */,
+				36AD33C124E7EE5E002B28B3 /* Sources */,
+				36AD33C224E7EE5E002B28B3 /* Frameworks */,
+				36AD33C324E7EE5E002B28B3 /* Resources */,
+				04EBE18B48E31EB01B8265B7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyreBirdDemo;
+			productName = LyreBirdDemo;
+			productReference = 36AD33C524E7EE5E002B28B3 /* LyreBirdDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36AD33BD24E7EE5E002B28B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Reminis;
+				TargetAttributes = {
+					36AD33C424E7EE5E002B28B3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 36AD33C024E7EE5E002B28B3 /* Build configuration list for PBXProject "LyreBirdDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36AD33BC24E7EE5E002B28B3;
+			productRefGroup = 36AD33C624E7EE5E002B28B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36AD33C424E7EE5E002B28B3 /* LyreBirdDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36AD33C324E7EE5E002B28B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AD33D524E7EE5F002B28B3 /* LaunchScreen.storyboard in Resources */,
+				36AD33D224E7EE5F002B28B3 /* Assets.xcassets in Resources */,
+				36AD33D024E7EE5E002B28B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04EBE18B48E31EB01B8265B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LyreBirdDemo/Pods-LyreBirdDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LyreBirdDemo/Pods-LyreBirdDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LyreBirdDemo/Pods-LyreBirdDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		395996FE092139668CCD6CE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LyreBirdDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36AD33C124E7EE5E002B28B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362ACCF624E81393008B8EDB /* Extensions.swift in Sources */,
+				36AD33CD24E7EE5E002B28B3 /* ViewController.swift in Sources */,
+				36AD33DD24E80154002B28B3 /* OverlayItem.swift in Sources */,
+				36AD33C924E7EE5E002B28B3 /* AppDelegate.swift in Sources */,
+				36AD33CB24E7EE5E002B28B3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36AD33CE24E7EE5E002B28B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36AD33CF24E7EE5E002B28B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36AD33D324E7EE5F002B28B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36AD33D424E7EE5F002B28B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36AD33D724E7EE5F002B28B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36AD33D824E7EE5F002B28B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36AD33DA24E7EE5F002B28B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5170CEA511FE5CB4F368DE /* Pods-LyreBirdDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DK8WTZXMP;
+				INFOPLIST_FILE = LyreBirdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinticks.LyreBirdDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36AD33DB24E7EE5F002B28B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E391BF71B0DA22CA90DD37AF /* Pods-LyreBirdDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DK8WTZXMP;
+				INFOPLIST_FILE = LyreBirdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinticks.LyreBirdDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36AD33C024E7EE5E002B28B3 /* Build configuration list for PBXProject "LyreBirdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AD33D724E7EE5F002B28B3 /* Debug */,
+				36AD33D824E7EE5F002B28B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36AD33D924E7EE5F002B28B3 /* Build configuration list for PBXNativeTarget "LyreBirdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AD33DA24E7EE5F002B28B3 /* Debug */,
+				36AD33DB24E7EE5F002B28B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36AD33BD24E7EE5E002B28B3 /* Project object */;
+}
