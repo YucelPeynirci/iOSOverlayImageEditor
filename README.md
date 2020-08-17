@@ -1,5 +1,7 @@
 # iOSOverlayImageEditor
 
+![Image of Overlay Image Editor](https://github.com/YucelPeynirci/iOSOverlayImageEditor/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202020-08-17%20at%2022.35.01.png)
+
 This is an example overlay image editor app for iOS devices.
 
 - Horizontal scroll view for overlay image options
